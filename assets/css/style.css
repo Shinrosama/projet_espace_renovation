@@ -1,0 +1,387 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+@font-face {
+    font-family: "lato regular";
+    src: url(/assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "lato bold";
+    src: url(/assets/fonts/Lato/Lato-Bold.ttf);
+
+}
+
+@font-face {
+
+    font-family: "roboto regular";
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* ---j'essaye de mettre les regle générales--- */
+
+a {
+    text-decoration: none;
+    font-family: "lato regular";
+}
+
+a:visited {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: #edd154;
+}
+
+.btn1 {
+
+    display: inline-block;
+    
+    color: white;
+    font-family: "lato bold";
+    font-size: 17px;
+    background-color: #112e3e;
+    height: 57px;
+    width: 279;
+    border-radius: 5px;
+    padding: 20px 40px;
+    
+    
+}
+
+.btn1:hover {
+
+    color: white;
+    background-color: #818a91;
+    transition: all .3s;
+}
+
+
+
+/* ---le header--- */
+
+nav {
+
+    margin: 0;
+    padding: 0;
+    background-color: #112e3e;
+}
+
+nav>p {
+    color: white;
+    padding: 0px 20px;
+
+}
+
+header>nav>.container {
+
+    background-color: #112e3e;
+    font-size: 18px;
+    
+}
+
+/*---section1 le carousel --- */
+
+
+.carousel-item {
+
+    height: 100%;
+    width: 100%;
+    font-family: "lato regular";
+    
+
+}
+
+.carousel-caption>h5{
+
+    font-size: 37px;
+    text-align: left;
+    margin: 0;
+}
+
+.carousel-caption>p {
+
+    font-size: 37px;
+    color: #edd154;
+    text-align: left;
+    margin: 0;
+}
+
+
+
+
+
+/* ---sectin2 la partie centrale--- */
+
+.section2 {
+    padding: 28.7px 0px;
+    font-family: "lato regular";
+    
+}
+
+.text-center>h2 {
+
+    font-size: 30px;
+    margin: 0;
+}
+
+.text-center>p {
+    font-size: 20px;
+    margin: 0px 0px 20px;
+}
+
+.text-center>.text{
+
+    font-size: 15px;
+    margin: 0px 0px 20px;
+    font-family: "roboto regular";
+    
+}
+
+/* ---section3 la partie image et texte au centre--- */
+
+.section3 {
+
+    color: #112e3e;
+    padding-bottom: 23.8px;
+}
+
+.row>.col-4 {
+
+    padding: 18px;
+}
+
+.img_devis {
+
+    padding-bottom: 16px;
+}
+
+.img_renovation {
+
+    padding-bottom: 16px;
+}
+
+.img_conseil {
+
+    padding-bottom: 16px;
+}
+
+.titre {
+
+    font-family: "lato bold";
+}
+
+.devis {
+
+    text-align: center;
+
+}
+
+.renovation {
+
+    text-align: center;
+}
+
+.conseil {
+
+    text-align: center;
+}
+
+.text-center {
+     padding-top: 22px;
+    }
+
+
+/* ---section4 section des réalisations --- */
+
+.section4 {
+
+    padding: 23.8px 0px;
+    margin: 0;
+    
+}
+
+.section4>.container {
+
+    padding: 15px;
+    margin: 0;
+
+}
+
+.text_sous {
+
+    text-align: center;
+    
+}
+
+.section4>.container>.row>.col-4 {
+
+    font-family: "lato bold";
+    padding: 0;
+    width: 377.3px;
+}
+
+.text-center4>h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.text-center4>.text4 {
+
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.text-center4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.img_co {
+
+    width: 365.3px;
+}
+
+
+/* ---section5 contatcs --- */
+
+
+.section5 {
+
+    padding: 28.7px 0px 57.5px;
+}
+
+.text-center5 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.text-center6 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.titre5 {
+
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bureau {
+
+    text-align: center;
+}
+
+.mail {
+    list-style: none;
+    text-align: center;
+    color: #112e3e;
+}
+
+
+
+.mail>li>a {
+
+    color: #112e3e;
+}
+
+.mail>li>a:visited {
+
+    color: #112e3e;
+}
+
+.mail>li>a:hover {
+
+    color: #edd154;
+}
+
+
+.form {
+    text-align: center;
+    color: #112e3e;
+}
+
+
+.mail>a{
+
+    
+}
+
+.form>a {
+
+    color: #112e3e;
+}
+
+
+/* ---section6 footer --- */
+
+footer {
+    font-family: "lato regular";
+    background-color: #112e3e;
+
+}
+
+.section6 {
+
+    height: 300px;
+}
+
+footer>section>.container {
+
+   
+    color: white;
+    background-color: #112e3e;
+}
+
+.logo6 {
+
+    width: 294px;
+}
+
+.dom6 { 
+
+    padding: 25px;
+
+}
+
+.cont6 {
+
+    border-left: solid white;
+
+    font-size: 17px;
+
+}
+
+#cn-notice-text {
+
+    font-size: 13px;
+}
+
+#cn-notice-buttons {
+    
+    color: #112e3e;
+    background-color: white;
+    
+}
+
+#cn-notice-buttons>a {
+
+    text-decoration: none;
+}
+
+#cn-notice-buttons>a:visited {
+
+    color: #112e3e;
+}
+
+
+
+
+
